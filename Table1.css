@@ -1,0 +1,148 @@
+body{
+	padding-top: 20px;
+}
+
+.table-container{margin-bottom: 100px;
+	
+}
+table{
+	border-style: double;
+	height: 70%;
+	width: 80%;
+	border-collapse: collapse;
+	border-color: black;
+}
+
+td {
+	border-width: 2px;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	
+}
+
+p.rotatescore {
+	transform: rotate(-90deg);
+	margin-right: -30px;
+
+}
+
+.textay{
+	 display: flex;
+	 justify-items: center;
+	 justify-content: space-between;
+}
+
+.Ay{
+	width: 60px;
+	height: 120px;
+	padding: 0px 20px;
+}
+
+@media (max-width:1081px) {
+	table.Table2 thead tr{
+		display: none;
+
+	}
+	table.Table1 thead tr{
+		display: none;
+		
+	}
+	table.Table1 tr {
+		display: block;
+	}
+	table th, table td {
+		padding: 8px;
+	}
+	table.Table1 td {
+		text-align: right;
+		display: block;
+		font-size: 18px;
+		width:auto;
+		padding: 10px;
+	}
+	
+	table td::before{
+		content: attr(data-title) ": ";
+		float: left;
+	}
+
+	td {
+		border-width: 0;
+		text-align: center;
+		width: auto;
+		height: auto;
+	}
+
+
+
+	table.Table2 tr {
+		display: block;
+	}
+
+
+	table.Table2 td {
+		text-align: right;
+		display: block;
+		font-size: 18px;
+		width: auto;
+		padding: 10px;
+	
+	}
+
+	table td::before{
+		content: attr(data-title) ": ";
+		float: left;
+	}
+
+	td.gradeleft{
+		text-align: left;
+		padding-left: 10px;
+		float: right;
+	}
+
+	
+
+
+}
+		
+
+
+
+.table-container2{
+	margin-top: 50px;
+}
+
+th.r2 {
+	text-align: left;
+	padding-left: 10px !important;
+	
+}
+
+td.grade{
+	width: auto;
+	text-align: left;
+	padding-left: 10px;
+}
+
+td.gradeA{
+	width: auto;
+	text-align: center;
+}
+
+table.Table2 {
+	border-style: double;
+	height: 30%;
+	width: 80%;
+	border-collapse: collapse;
+	border-color: rgb(0, 0, 0);
+}
+
+td.gradeleft{
+	text-align: left;
+	padding-left: 10px;
+}
+
+.gs{
+	background-color: black;
+}
